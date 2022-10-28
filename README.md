@@ -18,7 +18,7 @@ En esta ocasion nos adentramos a comprobar como funcionan los eventos en unity
   
 * ### 2- Creamos una escena en Unity, con objetos de tipo A (Esferas), B (Cilindros) y un único objeto C (Cubo) con los siguientes comportamientos:
 
-  * ## 2.1- Cuando el jugador colisiona con un objeto de tipo B, los objetos A se acercan al objeto C. Cuando toca algún objeto A se incrementa el tamaño de cualquier objeto B
+  * #### 2.1- Cuando el jugador colisiona con un objeto de tipo B, los objetos A se acercan al objeto C. Cuando toca algún objeto A se incrementa el tamaño de cualquier objeto B
     ![2o](https://user-images.githubusercontent.com/72491269/198443444-459911e3-80f8-4fed-8187-3293eee233b4.gif)
   
     Ahora podemos ver como al colisionar con los cilindros, las esferas se acercan al cubo y cuando colisionamos con las esferas, los cilindros aumentan su tamaño.
@@ -26,7 +26,7 @@ En esta ocasion nos adentramos a comprobar como funcionan los eventos en unity
       * TypeACollition.cs: script asignado a los cilindro que se ejecuta cuando se colisiona con una esfera.
       * TypeBCollition.cs: script asignado a las esferas que se ejecuta cuando se colisiona con un cilindro
   
-  * ## 2.2- Cuando el jugador se aproxima al objeto de tipo C, los objetos de tipo A cambian su color y saltan y los objetos de tipo B se orientan hacia un objetivo ubicado en la escena con ese propósito.
+  * #### 2.2- Cuando el jugador se aproxima al objeto de tipo C, los objetos de tipo A cambian su color y saltan y los objetos de tipo B se orientan hacia un objetivo ubicado en la escena con ese propósito.
   
     ![3o](https://user-images.githubusercontent.com/72491269/198444637-a50ab717-10b6-47a8-9ce7-c547c9a05397.gif)
 
